@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: 'Open Sans';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: rgb(54, 54, 54);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+td {
+  font-family: 'Open Sans';
+}
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../public/NotoSerifThai-VariableFont_wdth\,wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
